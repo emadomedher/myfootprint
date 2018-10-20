@@ -191,7 +191,7 @@ class _MainPageState extends State<MainPage>
                         //  child: _batteryState == BatteryState.charging ? Icon(Icons.flash_on) : Container(),
                         //),
                         Text('Electricity Consumption', style: TextStyle(color: Colors.blueAccent)),
-                        Text(_batteryState == BatteryState.charging ? 'Charging' : 'On Battery', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 34.0)),
+                        Text(_batteryState == BatteryState.charging ? 'Charging' : 'On Battery', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 20.0)),
                         Text('Charge with renewable energy sources', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500, fontSize: 11.0)),
                       ],
                     ),
@@ -229,7 +229,7 @@ class _MainPageState extends State<MainPage>
                       children: <Widget>
                       [
                         Text('Transportation', style: TextStyle(color: Colors.blueAccent)),
-                        Text('In a vehicle', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 34.0)),
+                        Text('In a vehicle', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w700, fontSize: 20.0)),
                         Text('Please consider more effecient', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500, fontSize: 11.0)),
                         Text('transportation', style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500, fontSize: 11.0)),
                       ],
@@ -315,9 +315,9 @@ class _MainPageState extends State<MainPage>
           ),
         ],
         staggeredTiles: [
-          StaggeredTile.extent(2, 150.0),
-          StaggeredTile.extent(2, 140.0),
-          StaggeredTile.extent(2, 140.0),
+          StaggeredTile.extent(2, 100.0),
+          StaggeredTile.extent(2, 120.0),
+          StaggeredTile.extent(2, 120.0),
           StaggeredTile.extent(2, 292.0),
         ],
       )
